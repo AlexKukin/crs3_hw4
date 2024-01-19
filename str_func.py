@@ -1,3 +1,3 @@
 def to_upper(value: str):
-    """Описание другого разработчика"""
+    """convert str to upper case"""
     return value.upper()
