@@ -1,5 +1,9 @@
 def to_upper(value: str):
-    """convert str to upper case"""
+    """Переводит все символы строки в верхний регистр"""
     return value.upper()
 
-# some comments
+
+def to_title(value: str):
+    """Переводит первый символ каждого слова в строке в верхний регистр"""
+    return value.title()
+
